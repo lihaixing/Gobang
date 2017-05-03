@@ -8,8 +8,8 @@ $(function(){
 		}
 	}
 	var black=new Image(),white=new Image();
-	black.src='../img/black.png';
-	white.src='../img/white.png';
+	black.src='./img/black.png';
+	white.src='./img/white.png';
 	var n=0,first=1,isRepeat=[];
 	$('#cav').on('click',function(e){
 		if(n==0){
